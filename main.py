@@ -5,7 +5,7 @@ import os
 from google.cloud import texttospeech
 
 # Set up authentication environment variable
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="daring-harmony-379101-6a518e6f8c41.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "daring-harmony-379101-6a518e6f8c41.json"
 
 
 # Get the path to the file from the user
